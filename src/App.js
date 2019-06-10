@@ -3,6 +3,7 @@ import Applogo from "./components/applogo";
 import "./App.css";
 import Text from "./components/text";
 import PhoneImg from "./components/phoneimg";
+import NewsList from "./components/newsList";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <div className="item">
           <PhoneImg />
         </div>
+      </div>
+      <div>
+        <NewsList />
       </div>
     </div>
   );
